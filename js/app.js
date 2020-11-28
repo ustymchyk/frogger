@@ -157,7 +157,7 @@ Enemy.prototype.render = function () {
 
 const allEnemies = [...Array(5).keys()].map(num => new Enemy(num + 1));
 
-/////////////
+//////////////
 // Start game
-////////////
+/////////////
 Engine(this);
